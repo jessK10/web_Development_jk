@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation items */
+    align-items: center; /* Align the logo and nav items vertically */
+    padding: 10px 20px;
+    background-color: #7905c1;
+}
+
+.logo img {
+    width: 50px;  /* Make the logo smaller */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 20px;  /* Space between the nav items */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
